@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "AdSoyad": "asd",
+      "Username": "asd",
+      "Password": "dsa",
+      "id": 1
+    },
+    {
+      "AdSoyad": "fddfsdsafb",
+      "Username": "fgbf",
+      "Password": "bdbgd",
+      "id": 2
+    },
+    {
+      "AdSoyad": "x",
+      "Username": "y",
+      "Password": "z",
+      "id": 3
+    },
+    {
+      "AdSoyad": "1",
+      "Username": "s",
+      "Password": "a",
+      "id": 4
+    },
+    {
+      "AdSoyad": "Seyma Ozbalta",
+      "Username": "seyma",
+      "Password": "123",
+      "id": 5
+    }
+  ],
+  "dersler": [
+    {
+      "dersID": 1,
+      "dersAdi": "Web Tabanlı Programlama"
+    },
+    {
+      "dersID": 2,
+      "dersAdi": "Yazılım Mühendisliği"
+    },
+    {
+      "dersID": 3,
+      "dersAdi": "Mobil Uygulama Geliştirme"
+    },
+    {
+      "dersID": 4,
+      "dersAdi": "Örüntü Tanıma"
+    }
+  ],
+  "konular": [
+    {
+      "konuID": 1,
+      "konuAdi": "ReactJS",
+      "dersID": 1
+    },
+    {
+      "konuID": 2,
+      "konuAdi": "Mimari Tasarım",
+      "dersID": 2
+    },
+    {
+      "konuID": 3,
+      "konuAdi": "Swift ile Programlama",
+      "dersID": 3
+    },
+    {
+      "konuID": 4,
+      "konuAdi": "Matlab ile görüntü işleme",
+      "dersID": 4
+    }
+  ],
+  "sorular": [
+    {
+      "soruID": 5,
+      "soruMetni": "soruMetni1",
+      "soruResmi": "soruResmi1",
+      "soruTuru": "Test",
+      "puan": 35,
+      "konuID": 1
+    },
+    {
+      "soruID": 6,
+      "soruMetni": "soruMetni2",
+      "soruResmi": "soruResmi2",
+      "soruTuru": "Test",
+      "puan": 55,
+      "konuID": 2
+    },
+    {
+      "soruID": 7,
+      "soruMetni": "soruMetni3",
+      "soruResmi": "soruResmi3",
+      "soruTuru": "Klasik",
+      "puan": 95,
+      "konuID": 3
+    },
+    {
+      "soruID": 8,
+      "soruMetni": "soruMetni4",
+      "soruResmi": "soruResmi4",
+      "soruTuru": "Klasik",
+      "puan": 75,
+      "konuID": 4
+    }
+  ],
+  "kisiler": [
+    {
+      "kisiID": 1234567890,
+      "ad": "Ali",
+      "soyad": "Duru",
+      "kisiTur": "ogrenci",
+      "email": "email1",
+      "sifre": "sifre1"
+    },
+    {
+      "kisiID": 1212121212,
+      "ad": "Ahmet",
+      "soyad": "Duru",
+      "kisiTur": "ogrenci",
+      "email": "email2",
+      "sifre": "sifre2"
+    }
+  ],
+  "secenekler": [
+    {
+      "secenekID": "s1",
+      "secenekMetni": "secenekMetni1",
+      "secenekResmi": "secenekResmi1",
+      "soruID": 5,
+      "DogruCevap": "DogruCevap1"
+    },
+    {
+      "secenekID": "s2",
+      "secenekMetni": "secenekMetni2",
+      "secenekResmi": "secenekResmi2",
+      "soruID": 6,
+      "DogruCevap": "DogruCevap2"
+    },
+    {
+      "secenekID": "s3",
+      "secenekMetni": "secenekMetni3",
+      "secenekResmi": "secenekResmi3",
+      "soruID": 7,
+      "DogruCevap": "DogruCevap3"
+    },
+    {
+      "secenekID": "s4",
+      "secenekMetni": "secenekMetni4",
+      "secenekResmi": "secenekResmi4",
+      "soruID": 8,
+      "DogruCevap": "DogruCevap4"
+    }
+  ],
+  "cevaplar": [
+    {
+      "cevapID": "c1",
+      "kisiID": 1212121212,
+      "sinavSoruID": 0.1,
+      "cevap": "A"
+    },
+    {
+      "cevapID": "c2",
+      "kisiID": 1234567890,
+      "sinavSoruID": 0.2,
+      "cevap": "B"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "dersler":[
+        {"dersID":1,"dersAdi":"Web Tabanlı Programlama"},
+        {"dersID":2, "dersAdi":"Yazılım Mühendisliği"},
+        {"dersID":3,"dersAdi":"Mobil Uygulama Geliştirme"},
+        {"dersID":4,"dersAdi":"Örüntü Tanıma"}
+        
+    ],
+    "konular":[
+        {"konuID":1.0,"konuAdi":"ReactJS","dersID":1},
+        {"konuID":2.0,"konuAdi":"Mimari Tasarım","dersID":2},
+        {"konuID":3.0,"konuAdi":"Swift ile Programlama","dersID":3},
+        {"konuID":4.0,"konuAdi":"Matlab ile görüntü işleme","dersID":4}
+    ],
+    "sorular":[
+        {"soruID":5.0,"soruMetni":"soruMetni1","soruResmi":"soruResmi1","soruTuru":"Test","puan":35,"konuID":1.0},
+        {"soruID":6.0,"soruMetni":"soruMetni2","soruResmi":"soruResmi2","soruTuru":"Test","puan":55,"konuID":2.0},
+        {"soruID":7.0,"soruMetni":"soruMetni3","soruResmi":"soruResmi3","soruTuru":"Klasik","puan":95,"konuID":3.0},  
+        {"soruID":8.0,"soruMetni":"soruMetni4","soruResmi":"soruResmi4","soruTuru":"Klasik","puan":75,"konuID":4.0}     
+    ],
+    "kisiler":[
+        {"kisiID":1234567890,"ad":"Ali","soyad":"Duru","kisiTur":"ogrenci","email":"email1","sifre":"sifre1"},
+        {"kisiID":1212121212,"ad":"AHMET","soyad":"Duru","kisiTur":"ogrenci","email":"email2","sifre":"sifre2"}      
+    ]
+
+}

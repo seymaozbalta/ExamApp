@@ -1,0 +1,5 @@
+{"/dersler/:dersID": "/dersler?dersID=:dersID" ,
+"/konular/:konuID":"/konular?konuID=:konuID",
+"/sorular/:soruID":"/sorular?soruID=:soruID",
+ "/kisiler/:kisiID":"/kisiler?kisiID=:kisiID"
+}
